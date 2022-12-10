@@ -61,31 +61,31 @@
     position: absolute;
     cursor: pointer;
 }
-.first{
+.botton-first{
     width: 73px;
     height: 38px;
     left: 512px;
     top: 174px;
 }
-.second {
+.botton-second {
     width: 125px;
     height: 38px;
     left: 593px;
     top: 174px;
 }
-.third {
+.botton-third {
     width: 112px;
     height: 38px;
     left: 726px;
     top: 174px; 
 }
-.fourth {
+.botton-fourth {
     width: 103px;
     height: 38px;
     left: 846px;
     top: 174px;
 }
-.fifth {
+.botton-fifth {
     width: 130px;
     height: 38px;
     left: 957px;
