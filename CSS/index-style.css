@@ -1,0 +1,215 @@
+/* <-------------------↓-Header (Особливості)-↓-------------------> */
+
+.body {
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.header-webstudio {
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+}
+.header-webstudio::selection{
+    color: #2196F3;
+}
+.header-web {
+    color: #2196F3;
+}
+
+.header-link {
+    color: #212121;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-mail,
+.header-number {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-item {
+    list-style-type: none; 
+    color: #212121;
+}
+
+.link-interactive {
+    text-decoration: none;
+}
+.link-interactive:focus,
+.link-interactive:hover {
+    color: #2196F3;
+}
+
+/* <--------------------↓-Main (Особливості)-↓--------------------> */
+
+.main-container {
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+
+    background: #2F303A;
+}
+.main-heading {
+    color: #FFFFFF;
+
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.button {
+    border: none;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    border-radius: 4px;
+
+    cursor: pointer;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    position: absolute;
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+}
+
+.main-item {
+    list-style-type: none; 
+}
+
+/* <----------------------↓-Заголовки-↓----------------------> */
+/* h2 */
+.main-specialty {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    position: absolute;
+    width: 1170px;
+    height: 98px;
+    left: 215px;
+    top: 774px;
+}
+/* h3 */
+.main-specialty-heading {
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.main-specialty-paragraph {
+    color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+/* Чим ми займаємося */
+/* h2 */
+.main-practice {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    position: absolute;
+    width: 366px;
+    height: 42px;
+    left: 617px;
+    top: 966px;
+}
+
+/* Наша команда */
+/* h2 */
+.main-our-team {
+    color: #212121;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    position: absolute;
+    width: 264px;
+    height: 42px;
+    left: 668px;
+    top: 1540px;
+}
+/* h3 */
+.main-developer{
+    color: #212121;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+.main-developer-jobs {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+}
+/* <----------------------↑-Заголовки-↑----------------------> */
+
+/* <------------------------↓-Підвал-↓------------------------> */
+
+.footer-background {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+}
+.footer-interactive {
+    text-decoration: none;
+}
+.footer-webstudio {
+    color: #FFFFFF;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 400;
+
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2154px;
+}
+.footer-item {
+    list-style-type: none; 
+}
+.footer-address{
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 2205px;
+}
+.footer-link-address {
+    color: #FFFFFF;
+}
+.footer-mail,
+.footer-phone {
+    color: rgba(100%, 100%, 100%, 60%);
+}
+.footer-interactive:focus,
+.footer-interactive:hover {
+    color: #2196F3;
+}

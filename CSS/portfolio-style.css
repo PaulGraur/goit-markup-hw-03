@@ -1,0 +1,159 @@
+/* <-------------------↓-HEADER(Особливості)-↓-------------------> */
+
+.body {
+    font-family: roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.header-webstudio {
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 400;
+    color: #000000;
+}
+.header-webstudio::selection{
+    color: #2196F3;
+}
+.header-web {
+    color: #2196F3;
+}
+
+.header-link {
+    color: #212121;
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-mail,
+.header-number {
+    color: #757575;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.header-item {
+    list-style-type: none; 
+    color: #212121;
+}
+
+.link-interactive {
+    text-decoration: none;
+}
+.link-interactive:focus,
+.link-interactive:hover {
+    color: #2196F3;
+}
+
+/* <--------------------↓-MAIN-↓--------------------> */
+
+/* ↓ BOTTON ↓ */
+.botton{
+    background: #F5F4FA;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+    cursor: pointer;
+}
+.first{
+    width: 73px;
+    height: 38px;
+    left: 512px;
+    top: 174px;
+}
+.second {
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;
+}
+.third {
+    width: 112px;
+    height: 38px;
+    left: 726px;
+    top: 174px; 
+}
+.fourth {
+    width: 103px;
+    height: 38px;
+    left: 846px;
+    top: 174px;
+}
+.fifth {
+    width: 130px;
+    height: 38px;
+    left: 957px;
+    top: 174px;
+}
+.botton-interactive:hover,
+.botton-interactive:focus {
+    background-color: #2196F3;;
+}
+/* ↑ BOTTON ↑ */
+
+.main-item {
+    list-style-type: none; 
+}
+.main-heading {
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.main-paragraph {
+    color: #757575;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+/* <------------------------↓-FOOTER-↓------------------------> */
+.footer-background {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+}
+
+.footer-interactive {
+    text-decoration: none;
+}
+
+.footer-webstudio {
+    color: #FFFFFF;
+    font-family: raleway;
+    font-size: 26px;
+    font-weight: 400;
+
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2154px;
+}
+
+.footer-item {
+    list-style-type: none; 
+}
+
+.footer-address{
+    width: 231px;
+    height: 81px;
+    left: 215px;
+    top: 2205px;
+}
+.footer-link-address {
+    color: #FFFFFF;
+}
+
+.footer-mail,
+.footer-phone {
+    color: rgba(100%, 100%, 100%, 60%);
+}
+.footer-interactive:focus,
+.footer-interactive:hover {
+    color: #2196F3;
+}
