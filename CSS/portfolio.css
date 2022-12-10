@@ -51,6 +51,9 @@
 /* <--------------------↓-MAIN-↓--------------------> */
 
 /* ↓ BOTTON ↓ */
+.main-item-button{
+    list-style-type: none;
+}
 .botton{
     background: #F5F4FA;
     border-radius: 4px;
