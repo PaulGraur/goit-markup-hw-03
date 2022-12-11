@@ -147,8 +147,13 @@
 }
 
 /* Наша команда */
-.main-team {
+.main-team-container {
     background-color: #F5F4FA;
+
+    width: 1600px;
+    /* height: 648px; */
+    left: 0px;
+    /* top: 1446px; */
 }
 /* h2 */
 .main-our-team {
