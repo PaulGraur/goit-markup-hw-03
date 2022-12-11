@@ -5,10 +5,12 @@
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    background-color: #F5F5F5;
+    background-color: #FFFFFF;
     color: #212121;
 }
-
+.header {
+    background-color: #FFFFFF;
+}
 .header-webstudio {
     font-family: raleway;
     font-size: 26px;
@@ -55,6 +57,9 @@
 }
 
 /* <--------------------↓-MAIN-↓--------------------> */
+.main {
+    background-color: #FFFFFF;
+}
 .main-project {
     color: #000000;
     Font: Roboto;
@@ -74,7 +79,7 @@
     list-style-type: none;
 }
 .botton{
-    background: #EEEEEE;
+    background: #F5F4FA;
     border-radius: 4px;
     border: none;
 

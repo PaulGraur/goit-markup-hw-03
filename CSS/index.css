@@ -5,7 +5,7 @@
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    background-color: #F5F5F5;;
+    background-color: #FFFFFF;;
     color: #212121;
 }
 
@@ -147,6 +147,9 @@
 }
 
 /* Наша команда */
+.main-team {
+    background-color: #F5F4FA;
+}
 /* h2 */
 .main-our-team {
     color: #212121;
