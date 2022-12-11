@@ -1,8 +1,11 @@
+
 /* <-------------------↓-HEADER(Особливості)-↓-------------------> */
 
 .body {
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
+
+    background-color: #F5F5F5;
     color: #212121;
 }
 
@@ -47,17 +50,40 @@
 .link-interactive:hover {
     color: #2196F3;
 }
+.link-interactive:active{
+    color: #2196F3;
+}
 
 /* <--------------------↓-MAIN-↓--------------------> */
+.main-project {
+    color: #000000;
+    Font: Roboto;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    
+    position: absolute;
+    width: 112px;
+    height: 38px;
+    left: 688px;
+    top: 68px; 
+}
 
 /* ↓ BOTTON ↓ */
 .main-item-button{
     list-style-type: none;
 }
 .botton{
-    background: #F5F4FA;
+    background: #EEEEEE;
     border-radius: 4px;
     border: none;
+
+    font-family: Roboto;
+    color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
     position: absolute;
     cursor: pointer;
 }
@@ -142,6 +168,7 @@
 }
 
 .footer-item {
+    font-style: normal;
     list-style-type: none; 
 }
 

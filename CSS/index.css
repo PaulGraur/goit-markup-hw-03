@@ -1,8 +1,11 @@
+/* <--------------------------↓-INDEX-↓--------------------------> */
 /* <-------------------↓-Header (Особливості)-↓-------------------> */
 
 .body {
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
+
+    background-color: #F5F5F5;;
     color: #212121;
 }
 
@@ -45,6 +48,9 @@
 }
 .link-interactive:focus,
 .link-interactive:hover {
+    color: #2196F3;
+}
+.link-interactive:active{
     color: #2196F3;
 }
 
@@ -158,15 +164,15 @@
 /* h3 */
 .main-developer{
     color: #212121;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.17;
 }
 .main-developer-jobs {
     color: #757575;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.18;
+    line-height: 1.17;
 }
 /* <----------------------↑-Заголовки-↑----------------------> */
 
@@ -194,6 +200,7 @@
     top: 2154px;
 }
 .footer-item {
+    font-style: normal;
     list-style-type: none; 
 }
 .footer-address{
@@ -213,3 +220,10 @@
 .footer-interactive:hover {
     color: #2196F3;
 }
+/* <--------------------------↑-INDEX-↑--------------------------> */
+
+/* <------------------------↓-PORTFOLIO-↓------------------------> */
+
+
+
+/* <------------------------↑-PORTFOLIO-↑------------------------> */
