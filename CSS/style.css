@@ -60,6 +60,10 @@
 .link-interactive:hover {
     color: #2196F3;
 }
+.link-interactive:active {
+    color: #2196F3;
+}
+
 
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
@@ -250,6 +254,10 @@
 .footer-interactive:hover {
     color: #2196F3;
 }
+.footer-interactive:active {
+    color: #2196F3;
+}
+
 /* <--------------------------↑-INDEX-↑--------------------------> */
 
 
@@ -390,6 +398,10 @@
     color: #FFFFFF;
 
 } 
+.botton-interactive-p:active {
+    background-color: #2196F3;
+}
+
 /* ↑ BOTTON ↑ */
 
 .main-item-p {
@@ -471,6 +483,9 @@
 }
 .footer-interactive-p:focus,
 .footer-interactive-p:hover {
+    color: #2196F3;
+}
+.footer-interactive-p:active {
     color: #2196F3;
 }
 
