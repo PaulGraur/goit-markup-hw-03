@@ -288,6 +288,7 @@
     color: var(--header-web-part-logo);
 }
 
+/* -----ADDRESS----- */
 .header-link-p {
     color: var(--title-text-color);
     
@@ -295,7 +296,6 @@
     font-size: 14px;
     line-height: 1.14;
 }
-
 .header-mail-p,
 .header-number-p {
     color: var(--paragraph-text-color);
@@ -303,12 +303,10 @@
     font-size: 14px;
     line-height: 1.14;
 }
-
 .header-item-p {
     list-style-type: none; 
     color: var(--title-text-color);
 }
-
 .link-interactive-p {
     text-decoration: none;
 }
@@ -453,6 +451,7 @@
     list-style-type: none; 
 }
 
+/* -----ADDRESS FOOTER----- */
 .footer-address-p {
     width: 231px;
     height: 81px;
