@@ -1,12 +1,22 @@
 /* <--------------------------↓-INDEX-↓--------------------------> */
 /* <-------------------↓-Header (Особливості)-↓-------------------> */
+:root {
+    --main-background-color: #FFFFFF;
+    --footer-background-color: #2F303A;
+    --button-background-color: #F5F4FA;
+    --address-text-color: #757575;
+    --footer-link-address: #FFFFFF;
+    --title-text-color: #212121;
+    --paragraph-text-color: #757575;
+    --header-web-part-logo: #2196F3;
+}
 
 .body {
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    background-color: #FFFFFF;;
-    color: #212121;
+    background-color: var(--main-background-color);
+    color: var(--title-text-color);
 }
 
 .header-webstudio {
@@ -19,11 +29,11 @@
     color: #2196F3;
 }
 .header-web {
-    color: #2196F3;
+    color: var(--header-web-part-logo);
 }
 
 .header-link {
-    color: #212121;
+    color: var(--title-text-color);
     
     font-weight: 500;
     font-size: 14px;
@@ -32,7 +42,7 @@
 
 .header-mail,
 .header-number {
-    color: #757575;
+    color: var(--address-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -40,7 +50,7 @@
 
 .header-item {
     list-style-type: none; 
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .link-interactive {
@@ -50,19 +60,17 @@
 .link-interactive:hover {
     color: #2196F3;
 }
-.link-interactive:active{
-    color: #2196F3;
-}
+
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
 
 .main-container {
+    background-color: #2F303A;
+
     width: 1600px;
     height: 600px;
     left: 0px;
     top: 80px;
-
-    background: #2F303A;
 }
 .main-heading {
     color: #FFFFFF;
@@ -104,7 +112,7 @@
 /* <----------------------↓-Заголовки-↓----------------------> */
 /* h2 */
 .main-specialty {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -118,13 +126,13 @@
 }
 /* h3 */
 .main-specialty-heading {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
 }
 .main-specialty-paragraph {
-    color: #757575;
+    color: var(--paragraph-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -133,7 +141,7 @@
 /* Чим ми займаємося */
 /* h2 */
 .main-practice {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -157,7 +165,7 @@
 }
 /* h2 */
 .main-our-team {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -171,13 +179,13 @@
 }
 /* h3 */
 .main-developer{
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.17;
 }
 .main-developer-jobs {
-    color: #757575;
+    color: var(--paragraph-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.17;
@@ -187,7 +195,7 @@
 /* <------------------------↓-Підвал-↓------------------------> */
 
 .footer-background {
-    background: #2F303A;
+    background: var(--footer-background-color);
     width: 1600px;
     height: 252px;
     left: 0px;
@@ -218,11 +226,25 @@
     top: 2205px;
 }
 .footer-link-address {
-    color: #FFFFFF;
+    color: var(--footer-link-address);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2205px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .footer-mail,
 .footer-phone {
-    color: rgba(100%, 100%, 100%, 60%);
+    color: var(--address-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .footer-interactive:focus,
 .footer-interactive:hover {
@@ -239,11 +261,11 @@
     font-family: roboto, sans-serif;
     letter-spacing: 0.03em;
 
-    background-color: #FFFFFF;
-    color: #212121;
+    background-color: var(--main-background-color);
+    color: var(--title-text-color);
 }
 .header-p {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 .header-webstudio-p {
     font-family: raleway;
@@ -255,11 +277,11 @@
     color: #2196F3;
 }
 .header-web-p {
-    color: #2196F3;
+    color: var(--header-web-part-logo);
 }
 
 .header-link-p {
-    color: #212121;
+    color: var(--title-text-color);
     
     font-weight: 500;
     font-size: 14px;
@@ -268,7 +290,7 @@
 
 .header-mail-p,
 .header-number-p {
-    color: #757575;
+    color: var(--paragraph-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -276,7 +298,7 @@
 
 .header-item-p {
     list-style-type: none; 
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .link-interactive-p {
@@ -292,7 +314,7 @@
 
 /* <--------------------↓-MAIN-↓--------------------> */
 .main-p {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color);
 }
 .main-project-p {
     color: #000000;
@@ -313,13 +335,13 @@
     list-style-type: none;
 }
 .botton-p {
-    background: #F5F4FA;
+    background: var(--button-background-color);
     border-radius: 4px;
     border: none;
 
     font: 500 16px Roboto;
     line-height: 1.62;
-    color: #212121;
+    color: var(--title-text-color);
 
     cursor: pointer;
     position: absolute;
@@ -374,13 +396,13 @@
     list-style-type: none; 
 }
 .main-heading-p {
-    color: #212121;
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
 .main-paragraph-p {
-    color: #757575;
+    color: var(--paragraph-text-color);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
@@ -388,7 +410,7 @@
 
 /* <------------------------↓-FOOTER-↓------------------------> */
 .footer-background-p {
-    background: #2F303A;
+    background-color: var(--footer-background-color);
     width: 1600px;
     height: 252px;
     left: 0px;
@@ -426,12 +448,26 @@
     top: 2205px;
 }
 .footer-link-address-p {
-    color: #FFFFFF;
+    color: var(--footer-link-address);
+    width: 231px;
+    height: 21px;
+    left: 215px;
+    top: 2205px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 
 .footer-mail-p,
 .footer-phone-p {
-    color: rgba(100%, 100%, 100%, 60%);
+    color: var(--address-text-color);
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
 }
 .footer-interactive-p:focus,
 .footer-interactive-p:hover {
