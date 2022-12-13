@@ -48,7 +48,7 @@
 .current прописати для нього потрібний колір і застосовувати 
 до вибраних посилань */
 .header-link {
-    color: var(--title-text-color); /*#212121;*/
+    color: var(--title-text-color);
     
     text-decoration: none;
     font-weight: 500;
@@ -62,7 +62,9 @@
 .current:active {
     color: #2196F3;
 }
+
 /* <--------↑-NAVIGATION PANEL-↑--------> */
+
 .header-item {
     list-style-type: none; 
     color: var(--title-text-color); 
