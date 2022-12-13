@@ -52,17 +52,26 @@
 .header-link {
     color: var(--title-text-color);
     
+    text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
 
-.link-interactive:hover,
-.link-interactive:focus, 
-.link-interactive:active {
+.header-link:hover,
+.header-link:focus {
     color: #2196F3;
 }
+.header-link.f:active,
+.header-link.s:active,
+.header-link.t:active {
+    color: #ff0000;
+}
 
+.link-interactive:focus,
+.link-interactive:hover {
+    color: #2196F3;
+}
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
 
