@@ -32,14 +32,6 @@
     color: var(--header-web-part-logo);
 }
 
-.header-link {
-    color: var(--title-text-color);
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-}
-
 .header-mail,
 .header-number {
     color: var(--address-text-color);
@@ -56,15 +48,24 @@
 .link-interactive {
     text-decoration: none;
 }
-.link-interactive:focus,
-.link-interactive:hover {
-    color: #2196F3;
-}
-.link-interactive:active {
-    color: #2196F3;
+
+.header-link {
+    color: var(--title-text-color);
+    
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
-
+.link-interactive:hover,
+.link-interactive:focus {
+    color: #2196F3;
+}
+.studio:active,
+.portfolio:active,
+.contacts:active {
+    color: #ff0000;
+}
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
 
@@ -250,13 +251,6 @@
     font-size: 14px;
     line-height: 1.7;
 }
-.footer-interactive:focus,
-.footer-interactive:hover {
-    color: #2196F3;
-}
-.footer-interactive:active {
-    color: #2196F3;
-}
 
 /* <--------------------------↑-INDEX-↑--------------------------> */
 
@@ -307,16 +301,32 @@
     list-style-type: none; 
     color: var(--title-text-color);
 }
-.link-interactive-p {
+
+/* .link-interactive-p {
     text-decoration: none;
 }
-.link-interactive-p:focus,
-.link-interactive-p:hover {
+.header-link-p {
+    color: #212121;
+}
+.link-portfolio-p {
     color: #2196F3;
 }
-.link-interactive-p:active{
+.link-studio-p {
+    text-decoration: none;
+} */
+
+
+/* .header-link-p.link-studio-p:focus,
+.header-link-p.link-studio-p:hover,
+.header-link-p.link-studio-p:active {
     color: #2196F3;
 }
+.header-link-p.link-portfolio-p:focus,
+.header-link-p.link-portfolio-p:hover,
+.header-link-p.link-portfolio-p:active {
+    color: #212121;
+} */
+
 
 /* <--------------------↓-MAIN-↓--------------------> */
 .main-p {
@@ -479,13 +489,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-}
-.footer-interactive-p:focus,
-.footer-interactive-p:hover {
-    color: #2196F3;
-}
-.footer-interactive-p:active {
-    color: #2196F3;
 }
 
 /* <------------------------↑-PORTFOLIO-↑------------------------> */
