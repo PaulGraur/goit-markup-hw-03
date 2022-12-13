@@ -55,10 +55,12 @@
     font-size: 14px;
     line-height: 1.14;
 }
+
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
 }
+
 .current:active {
     color: #2196F3;
 }
@@ -78,7 +80,7 @@
 }
 
 
-/* <--------------------↓-Main (Особливості)-↓--------------------> */
+/* <--------------------↓-Main(Особливості)-↓--------------------> */
 
 .main-container {
     background-color: #2F303A;
