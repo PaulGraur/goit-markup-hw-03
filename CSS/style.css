@@ -48,21 +48,23 @@
 .current прописати для нього потрібний колір і застосовувати 
 до вибраних посилань */
 .header-link {
-    color: var(--title-text-color);
+    color: #212121;
     
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-.header-link:hover,
-.header-link:focus {
+
+.header-items .link:hover, 
+.header-items .link:focus {
     color: #2196F3;
 }
 
-.header-link.current:active {
-    color: #ff0000;
+.header-items .link.current {
+    color: #2196F3;
 }
+
 /* <--------↑-NAVIGATION PANEL-↑--------> */
 
 .header-item {
