@@ -58,14 +58,11 @@
 }
 
 .link-interactive:hover,
-.link-interactive:focus {
+.link-interactive:focus, 
+.link-interactive:active {
     color: #2196F3;
 }
-.studio:active,
-.portfolio:active,
-.contacts:active {
-    color: #ff0000;
-}
+
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
 
