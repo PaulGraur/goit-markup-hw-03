@@ -55,16 +55,14 @@
     font-size: 14px;
     line-height: 1.14;
 }
-
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
 }
 
-.current:active {
-    color: #2196F3;
+.header-link.current:active {
+    color: #ff0000;
 }
-
 /* <--------↑-NAVIGATION PANEL-↑--------> */
 
 .header-item {
