@@ -7,7 +7,7 @@
     --address-text-color: rgba(255, 255, 255, 0.6);
     --footer-link-address: #FFFFFF;
     --title-text-color: #212121;
-    --paragraph-text-color: #757575;
+    --text-color: #757575;
     --header-web-part-logo: #2196F3;
 }
 
@@ -19,6 +19,7 @@
     color: var(--title-text-color);
 }
 
+/* <----------↓-LOGO-↓----------> */
 .header-webstudio {
     font-family: raleway;
     font-size: 26px;
@@ -31,19 +32,7 @@
 .header-web {
     color: var(--header-web-part-logo);
 }
-
-.header-mail,
-.header-number {
-    color: var(--address-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-}
-
-.header-item {
-    list-style-type: none; 
-    color: var(--title-text-color);
-}
+/* <----------↑-LOGO-↑----------> */
 
 .link-interactive {
     text-decoration: none;
@@ -53,23 +42,39 @@
     color: #2196F3;
 }
 
+/* <--------↓-NAVIGATION PANEL-↓--------> */
+/* Для того, щоб зробити підсвічування посилання поточної 
+сторінки, необхідно задати додатковий клас, наприклад 
+.current прописати для нього потрібний колір і застосовувати 
+до вибраних посилань */
 .header-link {
-    color: var(--title-text-color);
+    color: var(--title-text-color); /*#212121;*/
     
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-
 .header-link:hover,
 .header-link:focus {
     color: #2196F3;
 }
-
 .current:active {
     color: #2196F3;
 }
+/* <--------↑-NAVIGATION PANEL-↑--------> */
+.header-item {
+    list-style-type: none; 
+    color: var(--title-text-color); 
+}
+.header-mail,
+.header-number {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
 
 /* <--------------------↓-Main (Особливості)-↓--------------------> */
 
@@ -164,7 +169,7 @@
 /* <------------↓-FOOTER (PORTFOLIO AND STUDIO)-↓------------> */
 
 .footer-background {
-    background: var(--footer-background-color);
+    background-color: var(--footer-background-color);
 }
 .footer-interactive {
     text-decoration: none;
