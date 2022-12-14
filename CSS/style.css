@@ -48,19 +48,17 @@
 .current прописати для нього потрібний колір і застосовувати 
 до вибраних посилань */
 .header-link {
-    color: #212121;
+    color: var(--footer-background-color);
     
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
 }
-
 .header-items .link:hover, 
 .header-items .link:focus {
     color: #2196F3;
 }
-
 .header-items .link.current {
     color: #2196F3;
 }
@@ -245,14 +243,14 @@
     /* border: 1px solid #00C6FF; */
 }
 
-.botton-interactive-p:hover,
-.botton-interactive-p:focus {
+.botton-p:hover,
+.botton-p:focus {
     background-color: #2196F3;
     background-position: 0 0;
     color: #FFFFFF;
 
 } 
-.botton-interactive-p:active {
+.botton-p:active {
     background-color: #2196F3;
 }
 
