@@ -1,274 +1,476 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* <--------------------------↓-INDEX-↓--------------------------> */
 /* <-------------------↓-Header (Особливості)-↓-------------------> */
+
 :root {
-    --main-background-color: #FFFFFF;
-    --footer-background-color: #2F303A;
-    --button-background-color: #F5F4FA;
-    --address-text-color: rgba(255, 255, 255, 0.6);
-    --footer-link-address: #FFFFFF;
-    --title-text-color: #212121;
-    --text-color: #757575;
-    --header-web-part-logo: #2196F3;
+  --main-color: #ffffff;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --background-color: #2f303a;
+  --button-background-color: #f5f4fa;
+  --address-text-color: rgba(255, 255, 255, 0.6);
+  --title-text-color: #212121;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li,
+a {
+  text-decoration: none;
+  margin: 0;
 }
 
 .body {
-    font-family: roboto, sans-serif;
-    letter-spacing: 0.03em;
+  background-color: var(--main-color);
+  color: var(--title-text-color);
 
-    background-color: var(--main-background-color);
-    color: var(--title-text-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+.title {
+  display: flex;
+  text-align: right;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+
+  min-height: 80px;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: red solid 3px;
 }
 
 /* <----------↓-LOGO-↓----------> */
+
 .header-webstudio {
-    font-family: raleway;
-    font-size: 26px;
-    font-weight: 400;
-    color: #000000;
+  font-family: raleway;
+  font-size: 26px;
+  font-weight: 400;
+  color: #000000;
 }
-.header-webstudio::selection{
-    color: #2196F3;
+
+.header-webstudio::selection {
+  color: var(--accent-color);
 }
+
 .header-web {
-    color: var(--header-web-part-logo);
+  color: var(--accent-color);
 }
+
 /* <----------↑-LOGO-↑----------> */
 
-.link-interactive {
-    text-decoration: none;
-}
-.link-interactive:focus,
-.link-interactive:hover {
-    color: #2196F3;
+/* <--------↓-NAVIGATION PANEL-↓--------> */
+
+.header-list {
+  display: flex;
+  padding-left: 90px;
 }
 
-/* <--------↓-NAVIGATION PANEL-↓--------> */
-/* Для того, щоб зробити підсвічування посилання поточної 
-сторінки, необхідно задати додатковий клас, наприклад 
-.current прописати для нього потрібний колір і застосовувати 
-до вибраних посилань */
+.header-list .link:hover,
+.header-list .link:focus {
+  color: var(--accent-color);
+}
+
+.header-list .link.current {
+  color: var(--accent-color);
+}
+
 .header-link {
-    color: var(--footer-background-color);
-    
-    text-decoration: none;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+  color: var(--background-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
 }
-.header-items .link:hover, 
-.header-items .link:focus {
-    color: #2196F3;
+
+.header-contacts {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-bottom: 0;
 }
-.header-items .link.current {
-    color: #2196F3;
+
+.header-contacts .header-item:last-child {
+  margin-left: 50;
 }
 
 /* <--------↑-NAVIGATION PANEL-↑--------> */
 
 .header-item {
-    list-style-type: none; 
-    color: var(--title-text-color); 
-}
-.header-mail,
-.header-number {
-    color: var(--text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
+  list-style-type: none;
+  color: var(--title-text-color);
+
+  margin-right: 50px;
 }
 
+.header-mail,
+.header-number {
+  color: var(--text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.link-interactive:focus,
+.link-interactive:hover {
+  color: var(--accent-color);
+}
 
 /* <--------------------↓-Main(Особливості)-↓--------------------> */
 
-.main-container {
-    background-color: #2F303A;
-}
-.main-heading {
-    color: #FFFFFF;
+.specialty-container {
+  box-sizing: content-box;
+  background-color: var(--background-color);
+  min-height: 600px;
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-}
-.button {
-    border: none;
-    background-color: #2196F3;
-    color: #FFFFFF;
-    border-radius: 4px;
-
-    cursor: pointer;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+  text-align: center;
+  outline: red solid 3px;
 }
 
-.main-item {
-    list-style-type: none; 
+.specialty-heading {
+  color: #ffffff;
+
+  padding: 200px 452px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.specialty-button {
+
+  border: none;
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 32px;
+
+  cursor: pointer;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* <----------------------↓-Заголовки-↓----------------------> */
+
+.container-specialty {
+  display: flex;
+  max-width: 1170px;
+  margin: 94px auto;
+
+  outline: red solid 3px;
+}
+
+.specialty-list {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  margin-bottom: 22px;
+  gap: 30px;
+}
+
 /* h2 */
-.main-specialty {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+.specialty {
+  color: var(--title-text-color);
+  padding-bottom: 22px;
 }
+
 /* h3 */
-.main-specialty-heading {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+.specialty-meaning {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: left;
+  margin-bottom: 10px;
 }
-.main-specialty-paragraph {
-    color: var(--paragraph-text-color);
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
+
+.specialty-paragraph {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: left;
 }
 
 /* Чим ми займаємося */
 /* h2 */
-.main-practice {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+
+.container-work {
+  display: flex;
+  max-width: 1170px;
+  margin: 0 auto;
+
+  outline: red solid 3px;
+}
+
+.work-list {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.work-practice {
+  color: var(--title-text-color);
 }
 
 /* Наша команда */
-.main-team-container {
-    background-color: #F5F4FA;
+
+.team-section {
+  background-color: #f5f4fa;
 }
+
+.container-team {
+  display: flex;
+  min-height: 650px;
+  max-width: 1170px;
+  margin: 94px auto 0;
+
+  outline: red solid 3px;
+}
+
+.team-list {
+  display: flex;
+  text-align: center;
+  align-content: center;
+  padding-bottom: 100;
+  margin-top: 50px;
+  gap: 30px;
+}
+
+.team-item {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 108px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 /* h2 */
-.main-our-team {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+
+.team-title {
+  color: var(--title-text-color);
 }
+
 /* h3 */
-.main-developer{
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.17;
+
+.team-developer {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+
+  padding: 30px;
 }
-.main-developer-jobs {
-    color: var(--paragraph-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.17;
+
+.team-jobs {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.17;
 }
+
 /* <----------------------↑-Заголовки-↑----------------------> */
 
 /* <------------↓-FOOTER (PORTFOLIO AND STUDIO)-↓------------> */
 
-.footer-background {
-    background-color: var(--footer-background-color);
+.footer {
+  background-color: var(--background-color);
 }
-.footer-interactive {
-    text-decoration: none;
+
+.container-footer{
+  display: flex;
+
+
+  min-height: 252px;
+
+  flex-direction: column;
+  align-content: flex-start;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  outline: red solid 3px;
 }
+
 .footer-webstudio {
-    color: #FFFFFF;
-    font-family: Raleway;
-    font-size: 26px;
-    font-weight: 400;
+  padding-right: 215px;
+  color: #ffffff;
+  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 400;
 }
+
 .footer-item {
-    font-style: normal;
-    list-style-type: none; 
+  font-style: normal;
+  list-style-type: none;
 }
 
 .footer-link-address {
-    color: var(--footer-link-address);
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+  color: var(--main-color);
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
+
 .footer-mail,
 .footer-phone {
-    color: var(--address-text-color);
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.7;
+  color: var(--address-text-color);
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
 }
+
 /* <--------------------------↑-INDEX-↑--------------------------> */
-
-
 
 /* <------------------------↓-PORTFOLIO-↓------------------------> */
 /* <---------------------------↓-MAIN-↓---------------------------> */
+
 .main-p {
-    background-color: var(--main-background-color);
+  background-color: var(--main-color);
 }
-.main-project-p {
-    color: #000000;
-    Font: Roboto;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+
+.project {
+  display: flex;
+  text-align: center;
+  color: #000000;
+  font: Roboto;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.container-project {
+  display: flex;
+  min-height: 650px;
+  max-width: 1170px;
+  margin: 94px auto 0;
+
+  outline: red solid 3px;
+}
+
+.project-list {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.container-btn {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 8px;
 }
 
 /* ↓ BOTTON ↓ */
-.main-item-button-p {
-    list-style-type: none;
-}
-.botton-p {
-    background: var(--button-background-color);
-    border-radius: 4px;
-    border: none;
+.project-botton {
+  display: flex;
+  padding: 6px 22px;
 
-    font: 500 16px Roboto;
-    line-height: 1.62;
-    color: var(--title-text-color);
+  background-color: var(--button-background-color);
+  border-radius: 4px;
+  border: none;
 
-    cursor: pointer;
-     
-    background-image: linear-gradient(to left,transparent,transparent 50%,#2196F3 50%,#2196F3);
-    background-position: 100% 0;
-    background-size: 200% 100%;
-    transition: all .25s ease-in;
-    /* border: 1px solid #00C6FF; */
-}
+  font: 500 16px Roboto;
+  line-height: 1.62;
+  color: var(--title-text-color);
 
-.botton-p:hover,
-.botton-p:focus {
-    background-color: #2196F3;
-    background-position: 0 0;
-    color: #FFFFFF;
+  cursor: pointer;
 
-} 
-.botton-p:active {
-    background-color: #2196F3;
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    transparent 50%,
+    #2196f3 50%,
+    #2196f3
+  );
+  background-position: 100% 0;
+  background-size: 200% 100%;
+  transition: all 0.25s ease-in;
 }
 
+.project-botton:hover,
+.project-botton:focus {
+  background-color: var(--accent-color);
+  background-position: 0 0;
+  color: #ffffff;
+}
+
+.project-botton:active {
+  background-color: var(--accent-color);
+}
 /* ↑ BOTTON ↑ */
 
-.main-item-p {
-    list-style-type: none; 
+.posters-list {
+  display: flex;
+  text-align: center;
+  align-content: center;
+
+  flex-wrap: wrap;
+  gap: 30px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100;
+  margin-top: 50px;
 }
-.main-heading-p {
-    color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+
+.posters-item {
+  border: 1px solid #EEEEEE;
 }
-.main-paragraph-p {
-    color: var(--paragraph-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
+
+.posters-heading {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
+
+.posters-paragraph {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
 /* <------------------------↑-PORTFOLIO-↑------------------------> */
