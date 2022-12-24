@@ -18,11 +18,11 @@
   <body class="body">
     <!--Особливості-->
     <header class="header">
-      <div class="header-container">
-        <a href="index.html" class="header-webstudio link-interactive"
-          ><span class="header-web">Web</span>Studio</a
-        >
-        <nav>
+      <div class="container add-container">
+        <nav class="header-navigation">
+          <a href="index.html" class="header-webstudio link-interactive"
+            ><span class="header-web">Web</span>Studio</a
+          >
           <ul class="header-list">
             <li class="header-item">
               <a href="index.html" class="header-link link">Студія</a>
@@ -55,36 +55,34 @@
         </ul>
       </div>
     </header>
-    <!-- MAIN -->
-    <main">
-      <div class="container-project">
-        <section>
-          <h1 class="project">Проекти</h1>
+    <div class="line"></div>
 
-          <div class="container-btn">
-            <ul class="project-list">
-              <li class="project-item">
-                <button class="project-botton" type="button">Усі</button>
-              </li>
-  
-              <li class="project-item">
-                <button class="project-botton" type="button">Веб-сайти</button>
-              </li>
-  
-              <li class="project-item">
-                <button class="project-botton" type="button">Додатки</button>
-              </li>
-  
-              <li class="project-item">
-                <button class="project-botton" type="button">Дизайн</button>
-              </li>
-  
-              <li class="project-item">
-                <button class="project-botton" type="button">Маркетинг</button>
-              </li>
-            </ul>
-          </div>
-          
+    <!-- MAIN -->
+    <main>
+      <section class="section add-section">
+        <div class="container">
+          <h1 class="project">Проекти</h1>
+          <ul class="project-list">
+            <li class="project-item">
+              <button class="project-botton" type="button">Усі</button>
+            </li>
+
+            <li class="project-item">
+              <button class="project-botton" type="button">Веб-сайти</button>
+            </li>
+
+            <li class="project-item">
+              <button class="project-botton" type="button">Додатки</button>
+            </li>
+
+            <li class="project-item">
+              <button class="project-botton" type="button">Дизайн</button>
+            </li>
+
+            <li class="project-item">
+              <button class="project-botton" type="button">Маркетинг</button>
+            </li>
+          </ul>
 
           <!-- ПОСТЕРИ -->
           <ul class="posters-list">
@@ -93,9 +91,12 @@
                 src="images/image-portfolio/img(0).jpg"
                 alt="Технокряк"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Технокряк</h2>
-              <p class="posters-paragraph">Веб-сайт</p>
+              <div class="card">
+                <h2 class="posters-heading">Технокряк</h2>
+                <p class="posters-paragraph">Веб-сайт</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -103,9 +104,14 @@
                 src="images/image-portfolio/img(1).jpg"
                 alt="Постер New Orlean vs Golden Star"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Постер New Orlean vs Golden Star</h2>
-              <p class="posters-paragraph">Дизайн</p>
+              <div class="card">
+                <h2 class="posters-heading">
+                  Постер New Orlean vs Golden Star
+                </h2>
+                <p class="posters-paragraph">Дизайн</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -113,9 +119,12 @@
                 src="images/image-portfolio/img(2).jpg"
                 alt="Ресторан Seafood"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Ресторан Seafood</h2>
-              <p class="posters-paragraph">Додаток</p>
+              <div class="card">
+                <h2 class="posters-heading">Ресторан Seafood</h2>
+                <p class="posters-paragraph">Додаток</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -123,9 +132,12 @@
                 src="images/image-portfolio/img(3).jpg"
                 alt="Проєкт Prime"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Проєкт Prime</h2>
-              <p class="posters-paragraph">Маркетинг</p>
+              <div class="card">
+                <h2 class="posters-heading">Проєкт Prime</h2>
+                <p class="posters-paragraph">Маркетинг</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -133,9 +145,12 @@
                 src="images/image-portfolio/img(4).jpg"
                 alt="Проєкт Boxes"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Проєкт Boxes</h2>
-              <p class="posters-paragraph">Додаток</p>
+              <div class="card">
+                <h2 class="posters-heading">Проєкт Boxes</h2>
+                <p class="posters-paragraph">Додаток</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -143,9 +158,12 @@
                 src="images/image-portfolio/img(5).jpg"
                 alt="Inspiration has no Borders"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Inspiration has no Borders</h2>
-              <p class="posters-paragraph">Веб-сайт</p>
+              <div class="card">
+                <h2 class="posters-heading">Inspiration has no Borders</h2>
+                <p class="posters-paragraph">Веб-сайт</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -153,9 +171,12 @@
                 src="images/image-portfolio/img(6).jpg"
                 alt="Видання Limited Edition"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Видання Limited Edition</h2>
-              <p class="posters-paragraph">Дизайн</p>
+              <div class="card">
+                <h2 class="posters-heading">Видання Limited Edition</h2>
+                <p class="posters-paragraph">Дизайн</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -163,9 +184,12 @@
                 src="images/image-portfolio/img(7).jpg"
                 alt="Проєкт LAB"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Проєкт LAB</h2>
-              <p class="posters-paragraph">Маркетинг</p>
+              <div class="card">
+                <h2 class="posters-heading">Проєкт LAB</h2>
+                <p class="posters-paragraph">Маркетинг</p>
+              </div>
             </li>
 
             <li class="posters-item">
@@ -173,18 +197,21 @@
                 src="images/image-portfolio/img(8).jpg"
                 alt="Growing Business"
                 width="370"
+                height="294"
               />
-              <h2 class="posters-heading">Growing Business</h2>
-              <p class="posters-paragraph">Додаток</p>
+              <div class="card">
+                <h2 class="posters-heading">Growing Business</h2>
+                <p class="posters-paragraph">Додаток</p>
+              </div>
             </li>
           </ul>
-        </section>
-      </div>
+        </div>
+      </section>
     </main>
 
     <!--Підвал-->
     <footer class="footer">
-      <div class="container-footer">
+      <div class="container">
         <a href="index.html" class="footer-webstudio link-interactive"
           ><span class="header-web">Web</span>Studio</a
         >
